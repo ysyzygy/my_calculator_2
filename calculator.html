@@ -17,6 +17,10 @@ function x2() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 2);
 }
+function inv() {
+ var num = document.getElementById("n1");
+ num.value = 1/num.value;
+}
 </script>
 </head>
 <body>
@@ -28,6 +32,7 @@ function x2() {
  <button onclick="cube()"> x^3 </button>
  <button onclick="x4()"> x^4 </button>
  <button onclick="sin()"> sin(x) </button>
+ <button onclick="inv()"> 1/x </button>
  </p>
 </body>
 </html>
