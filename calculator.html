@@ -13,6 +13,10 @@ function x4() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
 }
+function x2() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 2);
+}
 </script>
 </head>
 <body>
@@ -20,9 +24,10 @@ function x4() {
  Number:
  <input type="text" id="n1">
  <p>
+  <button onclick="cube()"> x^2 </button>
  <button onclick="cube()"> x^3 </button>
- <button onclick="sin()"> sin(x) </button>
  <button onclick="x4()"> x^4 </button>
+ <button onclick="sin()"> sin(x) </button>
  </p>
 </body>
 </html>
